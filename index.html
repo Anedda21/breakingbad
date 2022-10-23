@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Mr. White</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/heisenberg-logo.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Merriweather&family=Montserrat:wght@300;400&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <div class="top-bar"> </div>
+</head>
+
+<body>
+  <style>
+    .on {
+      background-color: #FEC260;
+    }
+
+    .off {
+      background-color: #F5F0BB;
+    }
+  </style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script>
+    jQuery(document).ready(function() {
+      jQuery(".submit").click(function() {
+        if (jQuery("#mydiv").hasClass("on")) {
+          jQuery("#mydiv").removeClass("on").addClass("off");
+        } else {
+          jQuery("#mydiv").removeClass("off").addClass("on");
+        }
+      });
+    });
+  </script>
+
+  <div id="mydiv" class="off">
+    <button class="submit" type="button">ON/OFF</button>
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <table align="center">
+      <tr>
+        <td>
+          <h1>I'm Mr. White.</h1>
+          <h2 class"profession">chemistry teacher</h2>
+        </td>
+      </tr>
+    </table>
+    <p class="p2">What? What's an RV doing here? Now I'll explain...</p>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img class"cactus" src="images/cactus.png" width="75px" alt="cactus">
+    <img class="rv-breaking-bad" src="images\rvbb-b.png" width="600px" alt="rv-breaking-bad-img">
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+  </div>
+  <div class="middle-container">
+    <html>
+    <!--<label class="switch">
+      <input type="checkbox" checked>
+      <span class="slider round"></span>
+    </label>--->
+
+
+
+    <div class="middle-container">
+      <div class="profile">
+        <img class="heisenberg-img" src="images/heisenberg.png" width="152px" alt="heisemberg">
+        <h2>Say My Name.</h2>
+        <p>My name is Walter Hartwell White. I live at 308 Negra Arroyo Lane, Albuquerque, New Mexico, 87104.</p>
+      </div>
+      <hr>
+      <div class="hobbies">
+        <h2>My Hobbies.</h2>
+        <div class="hobbies-row">
+          <img src="images/laboratory.png" width="200px" alt="lab-icon">
+          <h3>I <span class="love">LOVE</span> to cook</h3>
+          <p>I used to cook meth, with my  business partner Jesse Pinkman,<br> in particular blue meth, I started in a rv in
+            the middle of the Albuquerque's desert</p>
+        </div>
+        <hr class="line">
+        <div class="skill-row">
+          <img class="washing-smachine" src="images/washing-machine.png" width="200px" alt="machine-img">
+          <h3>I'm also a <span class="kingpin">DRUG KINGPIN</span></h3>
+          <p> When Me and Jesse realized that I am pretty good cooking, we've decide to sell this blue meth not anymore in the hood but in a bigger way, <br>
+            so now we cook for Gus Fring (The Chicken Man, He Who Shall Not Be Named), under a industrial laundromat department 'Lavandería Brillante', in a SUPERLAB! <br></p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+      </div>
+    </div>
+    <div class="bottom-container">
+      <table cellspacing="0" align="center">
+        <tr>
+          <td>
+            <h2>BTW I HAVE C****R</h2>
+          </td>
+          <td><img src="images/flask1.gif" width="50px" alt="flask-img"></td>
+      </table>
+
+
+
+
+
+
+
+      <!--<a class="btn" href="mailto:name@email.com">CONTACT ME</a>-->
+      </tr>
+      <a class="footer-link" href="http://www.savewalterwhite.com/">If u wanna donate any money for my lung c****r, click here :D.</a>
+      <p>©Heisenberg.</p>
+    </div>
+
+    </html>
+  </div>
+  <div class="bottom-container">
+  </div>
+</body>
+
+</html>
