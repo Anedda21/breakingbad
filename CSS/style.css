@@ -1,0 +1,195 @@
+.to-bar{
+background-color: lightyellow;
+}
+
+
+body {
+  margin: 0;
+  background-color: #EDE6DB;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  color: #1D5C63;
+  font-size: 37px;
+  font-family: 'Sacramento', Dosis, serif;
+}
+
+h2 {
+  color: #1D5C63;
+  font-family: 'Dosis', sans-serif;
+}
+
+h3 {
+  color: black;
+  font-family: 'Dosis', sans-serif;
+}
+
+h4 {
+  font-family: 'Dosis', sans-serif;
+}
+
+.profession {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+p {
+  color: #1D5C63;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  left: 25px;
+}
+
+.p2{
+font-size: 20px;
+}
+
+.top-container {
+  background-color: #F5F0BB;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 500px;
+}
+
+.rv_breaking-bad {
+  position: absolute;
+}
+
+.middle-container {
+  background-color: #F3FFFF;
+  margin-top: 0;
+}
+
+.heisenberg-img{
+padding-top: 20px;
+}
+
+.love {
+  text-decoration: underline;
+}
+
+.kingpin{
+  font-weight: bold;
+
+}
+
+.line {
+  width: 65%;
+  border-top-style: solid;
+}
+
+.bottom-container {
+  margin-top: 15px;
+}
+
+/* Modern Fonts: sackers gothic, gotham, futura. */
+/* The switch - the box around the slider */
+
+.submit{
+display:inline-block;
+    padding:0.7em 1.4em;
+    margin:0 0.3em 0.3em 0;
+    border:none;
+    border-radius:0.5em;
+  /*  box-sizing: border-box;*/
+    text-decoration:none;
+    font-family:'Montserrat';
+    text-transform:uppercase;
+    font-weight:bold;
+    color: black;
+    background-color:#FAC213;
+    box-shadow:inset 0 -0.6em 0 -0.3em rgba(0,0,0,0.20);
+    text-align:center;
+    position:relative;
+    cursor:pointer;
+  }
+  .submit:hover{
+    background:gold;
+  }
+  .submit:active{
+    background:gold;
+    top:0.15em;
+    color: black;
+    box-shadow:none;
+  }
+  .dark-mode {
+    background-color: gold;
+    color: white;
+  }
+
+/*
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #EEEEEE;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #393E46;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #393E46;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+Rounded sliders
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 70%;
+}
+*/
